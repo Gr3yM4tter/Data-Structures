@@ -1,0 +1,30 @@
+Given two binary strings, return their sum (also a binary string).
+
+The input strings are both non-empty and contains only characters 1 or 0.
+
+Example 1:
+
+Input: a = "11", b = "1"
+Output: "100"
+
+Example 2:
+
+Input: a = "1010", b = "1011"
+Output: "10101"
+
+Question 2
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        String s1 = "Hello World";
+        // 1. concatenate
+        s1 += "!";
+        System.out.println(s1);
+        // 2. find
+        System.out.println("The position of first 'o' is: " + s1.indexOf('o'));
+        System.out.println("The position of last 'o' is: " + s1.lastIndexOf('o'));
+        // 3. get substring
+        System.out.println(s1.substring(6, 11));
+    }
+}
